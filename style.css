@@ -23,7 +23,7 @@ table {
 .wrapper {
   margin-left:auto;
   margin-right:auto;
-  background: transparent;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .user-commands td, th {
