@@ -2,13 +2,15 @@ table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 50%;
-}
-
-.mod-commands {
-  vertical-align: top;
 }  
 
-td, th {
+.user-commands td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+.mod-commands td, th {
   border: 1px solid black;
   text-align: left;
   padding: 8px;
