@@ -13,8 +13,8 @@ table {
 }  
 
 .wrapper {
-  padding:50px;
-  align:center;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .user-commands td, th {
