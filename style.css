@@ -27,10 +27,7 @@ table {
   padding: 8px;
 }
 
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-
 h1 {
   text-align: center;
+  font-color: #dddddd;
 }
