@@ -5,6 +5,10 @@ table {
   border: 1px solid black;
 }
 
+#mod-commands {
+  vertical-align: top;
+}  
+
 td, th {
   border: 1px solid black;
   text-align: left;
