@@ -22,6 +22,10 @@ table {
   background-color:rgba(0, 0, 0, 0);
 }  
 
+tbody {
+  background-color:rgba(0, 0, 0, 0);
+}
+
 .wrapper {
   margin-left:auto;
   margin-right:auto;
