@@ -1,5 +1,6 @@
 div {
   width 100%;
+  background-image: url('/images/dark.png');
 }
 
 table {
