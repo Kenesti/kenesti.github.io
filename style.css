@@ -1,9 +1,14 @@
 div {
   width 75%;
+  background-image: url("/images/dark-bg.jpg");
 }
 
 tr:nth-child(even) {
   background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
 }
 
 table {
