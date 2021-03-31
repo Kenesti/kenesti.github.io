@@ -14,7 +14,7 @@ table {
 
 .wrapper {
   padding:50px;
-  alignment:center;
+  align:center;
 }
 
 .user-commands td, th {
