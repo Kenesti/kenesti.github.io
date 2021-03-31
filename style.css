@@ -13,6 +13,11 @@ table {
   width: 50%;
 }  
 
+.wrapper {
+  padding:50px;
+  alignment:center;
+}
+
 .user-commands td, th {
   border: 1px solid black;
   text-align: left;
