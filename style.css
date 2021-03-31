@@ -15,12 +15,12 @@ table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 50%;
-  background-color: transparent;
 }  
 
 .wrapper {
   margin-left:auto;
   margin-right:auto;
+  background-color: transparent;
 }
 
 .user-commands td, th {
