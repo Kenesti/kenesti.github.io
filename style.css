@@ -33,19 +33,19 @@ tbody {
 }
 
 .user-commands td, th {
-  border: 1px solid white;
+  border: 1px solid black;
   text-align: left;
   padding: 8px;
 }
 
 .mod-commands td, th {
-  border: 1px solid white;
+  border: 1px solid black;
   text-align: left;
   padding: 8px;
 }
 
 .sub-commands td, th {
-  border: 1px solid white;
+  border: 1px solid black;
   text-align: left;
   padding: 8px;
 }
