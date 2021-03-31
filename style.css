@@ -2,7 +2,7 @@ table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 50%;
-  border: 1px solid #dddddd;
+  border: 1px solid black;
 }
 
 td, th {
