@@ -11,10 +11,6 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
-tr:nth-child(odd) {
-  background-color: white;
-}
-
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
