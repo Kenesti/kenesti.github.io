@@ -24,6 +24,7 @@ table {
 .wrapper {
   margin-left:auto;
   margin-right:auto;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .user-commands td, th {
