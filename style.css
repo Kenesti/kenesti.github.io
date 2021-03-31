@@ -1,5 +1,6 @@
 div {
   width 100%;
+  alignment:center;
 }
 
 tr:nth-child(even) {
