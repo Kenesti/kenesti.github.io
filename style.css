@@ -4,7 +4,7 @@ body {
 
 div {
   width 75%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: Transparent;
 }
 
 tr:nth-child(even) {
@@ -19,13 +19,13 @@ table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 50%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: Transparent;
 }  
 
 .wrapper {
   margin-left:auto;
   margin-right:auto;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: Transparent;
 }
 
 .user-commands td, th {
@@ -48,6 +48,6 @@ table {
 
 h1 {
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: Transparent;
 }
 
