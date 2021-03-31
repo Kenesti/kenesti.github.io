@@ -15,7 +15,7 @@ table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 50%;
-  background-image: url("/images/dark-bg.jpg");
+  background-color: transparent;
 }  
 
 .wrapper {
