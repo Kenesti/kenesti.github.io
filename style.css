@@ -16,6 +16,12 @@ table {
   padding: 8px;
 }
 
+.sub-commands td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
 tr:nth-child(even) {
   background-color: #dddddd;
 }
