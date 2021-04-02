@@ -22,6 +22,23 @@
       });
       $('#user').html(html);
     });
+    
+    $.getJSON("/data/mod-commands.json", function(data) {
+      var html='';
+      html += '<tr>';
+      html += '<td><b>COMMAND</b></td>';
+      html += '<td><b>USAGE</b></td>';
+      html += '<td><b>DESCRIPTION</b></td>';
+      html += '</tr>';
+      $.each(data, function(key, value){
+        html+='<tr>';
+        html+='<td>'+value.name+'</td>';
+        html+='<td><xmp>'+value.usage+'</xmp></td>';
+        html+='<td>'+value.description+'</td>';
+        html+='</tr>';
+      });
+      $('#mod').html(html);
+    });
   </script>
   
 </head>
@@ -33,6 +50,7 @@
   <div>
     <table class="wrapper">
       <tr>
+        
         <td valign="top">
           <table id="user" class="user-commands">
             <tr>
@@ -40,6 +58,17 @@
             </tr>
           </table>
         </td>
+        
+        <td style="width:100px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        
+        <td valign="top">
+          <table id="mod" class="mod-commands">
+            <tr>
+              <h1>Mod Commands</h1>
+            </tr>
+          </table>
+        </td>
+        
       </tr>
     </table>
   </div>
