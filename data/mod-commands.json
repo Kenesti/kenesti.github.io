@@ -1,0 +1,4 @@
+[
+  {"name": "!so", "usage": "!so <target>", "description": "Shout out a target viewer, displaying their twitch link and the last game played"},
+  {"name": "!addcommand", "usage": "!addcommand !<name> <content>", "description": "Add a command directly from chat"}
+]
