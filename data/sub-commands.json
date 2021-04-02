@@ -1,4 +1,11 @@
 [
   {"name": "!applause", "usage": "!applause", "description": "Plays the 'applause' sound clip"},
-  {"name": "!kekw", "usage": "!kekw", "description": "Plays the 'kekw' sound clip"}
+  {"name": "!kekw", "usage": "!kekw", "description": "Plays the 'kekw' sound clip"},
+  {"name": "!murloc", "usage": "!murloc", "description": "Plays the 'murloc' sound clip"},
+  {"name": "!notfine", "usage": "!notfine", "description": "Plays the 'not fine' sound clip"},
+  {"name": "!order66", "usage": "!order66", "description": "Plays the 'execute order 66' sound clip"},
+  {"name": "!thuglife", "usage": "!thuglife", "description": "Plays the 'thug life' sound clip"},
+  {"name": "!victory", "usage": "!victory", "description": "Plays the 'FF7 Victory' sound clip"},
+  {"name": "!wow", "usage": "!wow", "description": "Plays the 'anime wow' sound clip"},
+  {"name": "!heylisten", "usage": "!heylisten", "description": "Plays the 'hey listen!' sound clip"}
 ]
