@@ -4,13 +4,13 @@
   <script src="jquery-3.5.1.min.js"></script>
   <script>
     $.getJSON("/commands.json", function(data) {
-      var html='';
+      var html = '';
       $.each(data, function(key, value){
-        html+='<tr>';
-        html+='<td>'+value.name+'</td>';
-        html+='<td><xmp>'+value.usage+'</xmp></td>';
-        html+='<td>'+value.description+'</td>';
-        html+='</tr>';
+        html += '<tr>';
+        html += '<td>'+value.name+'</td>';
+        html += '<td><xmp>'+value.usage+'</xmp></td>';
+        html += '<td>'+value.description+'</td>';
+        html += '</tr>';
       });
       $('#test').html(html);
     });
