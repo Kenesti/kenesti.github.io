@@ -58,10 +58,26 @@ tbody {
   padding: 8px;
 }
 
+.mod-commands tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.mod-commands tr:nth-child(odd) {
+  background-color: white;
+}
+
 .sub-commands td, th {
   border: 1px solid black;
   text-align: left;
   padding: 8px;
+}
+
+.sub-commands tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.sub-commands tr:nth-child(odd) {
+  background-color: white;
 }
 
 h1 {
