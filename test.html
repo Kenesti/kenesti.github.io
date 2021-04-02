@@ -7,7 +7,11 @@
   <script type="text/javascript">
     $.getJSON("/data/commands.json", function(data) {
       var html='';
-      html += '<tr><h2>Does this go on top?</h2></tr>';
+      html += '<tr>';
+      html += '<td><b>COMMAND</b></td>';
+      html += '<td><b>USAGE</b></td>';
+      html += '<td><b>DESCRIPTION</b></td>';
+      html += '</tr>';
       $.each(data, function(key, value){
         html+='<tr>';
         html+='<td>'+value.name+'</td>';
