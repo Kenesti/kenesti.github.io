@@ -5,7 +5,7 @@
   {"name": "!removecommand", "usage": "!removecommand !<name>", "description": "Remove a command directly from chat"},
   {"name": "!enable", "usage": "!enable !<name>", "description": "Enable/disable a command directly from chat"},
   {"name": "!addquote", "usage": "!addquote <quote>", "description": "Add a quote through chat"},
-  {"name": "!quoteedit || !editquote", "usage": "!quoteedit || !editquote <number> <quote>", "description": "	Edit a quote through chat"},
+  {"name": "!quoteedit || !editquote", "usage": "!quoteedit || !editquote <number> <quote>", "description": "Edit a quote through chat"},
   {"name": "!quoteremove || !removequote", "usage": "!quoteremove || !removequote <number>", "description": "Remove a quote through chat"},
   {"name": "!addpoints", "usage": "!addpoints <target> <amount>", "description": "Add points to a viewer"},
   {"name": "!removepoints", "usage": "!removepoints <target> <amount>", "description": "Remove points from a viewer"},
