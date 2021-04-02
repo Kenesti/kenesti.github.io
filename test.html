@@ -8,8 +8,6 @@
     $.getJSON("/data/commands.json", function(data) {
       var html='';
       html += '<h1>Does this go on top?</h1>';
-      $('#test').html(html);
-      html = '';
       $.each(data, function(key, value){
         html+='<tr>';
         html+='<td>'+value.name+'</td>';
