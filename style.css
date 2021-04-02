@@ -13,10 +13,6 @@ div {
   background-color:rgba(0, 0, 0, 0);
 }
 
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -46,6 +42,14 @@ tbody {
   border: 1px solid black;
   text-align: left;
   padding: 8px;
+}
+
+.user-commands tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.user-commands tr:nth-child(odd) {
+  background-color: white;
 }
 
 .mod-commands td, th {
