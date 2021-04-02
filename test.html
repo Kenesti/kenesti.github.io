@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <head>
   <title>Test Page</title>
-  <script src="jquery-3.5.1.min.js"></script>
-  <script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript">
     $.getJSON("/commands.json", function(data) {
       var html = '';
       $.each(data, function(key, value){
