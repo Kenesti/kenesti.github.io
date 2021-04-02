@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <head>
   <title>Kenesti's Stream Commands</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   
   <script type="text/javascript">
-    $.getJSON("commands.json", function(data) {
+    $.getJSON("/data/commands.json", function(data) {
       var html='';
       $.each(data, function(key, value){
         html+='<tr>';
@@ -17,9 +19,7 @@
       $('#test').html(html);
     });
   </script>
-  
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
 </head>
 
 <body>
