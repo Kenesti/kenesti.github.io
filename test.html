@@ -6,7 +6,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   
   <script type="text/javascript">
-    $.getJSON("/data/commands.json", function(data) {
+    $.getJSON("/data/user-commands.json", function(data) {
       var html='';
       html += '<tr>';
       html += '<td><b>COMMAND</b></td>';
@@ -20,7 +20,7 @@
         html+='<td>'+value.description+'</td>';
         html+='</tr>';
       });
-      $('#test').html(html);
+      $('#user').html(html);
     });
   </script>
   
@@ -34,7 +34,7 @@
     <table class="wrapper">
       <tr>
         <td valign="top">
-          <table id="test" class="user-commands">
+          <table id="user" class="user-commands">
             <tr>
               <h1>Viewer Commands</h1>
             </tr>
