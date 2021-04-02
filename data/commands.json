@@ -1,3 +1,4 @@
 [
-  {"name": "!test", "usage": "!test <target>", "description": "This is a test command!"}
+  {"name": "!discord", "usage": "!discord", "description": "Displays a link to my Discord server"},
+  {"name": "!love", "usage": "!love <target>", "description": "Show the target viewer some love!"}
 ]
