@@ -1,0 +1,7 @@
+[
+  {
+    "name: "!test",
+    "usage: "!test <target>",
+    "description: "This is a test command!",
+  },
+]
