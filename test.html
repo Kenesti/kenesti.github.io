@@ -7,6 +7,9 @@
   <script type="text/javascript">
     $.getJSON("/data/commands.json", function(data) {
       var html='';
+      html += '<h1>Does this go on top?</h1>';
+      $('#test').html(html);
+      html = '';
       $.each(data, function(key, value){
         html+='<tr>';
         html+='<td>'+value.name+'</td>';
@@ -20,11 +23,20 @@
 
 </head>
 
-<body>
-  <h1>Test Page</h1>
-  
-  <table id="test"></table>
-
+<body id="content">
+  <div>
+    <table class="wrapper">
+      <tr>
+        <td valign="top">
+          <table id="test" class="user-commands">
+            <tr>
+              <h1>Viewer Commands</h1>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </div>
 </body>
 
 </html>
