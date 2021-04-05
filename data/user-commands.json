@@ -1,4 +1,5 @@
 [
+  {"name": "!commands", "usage": "!commands", "description": "Displays a link to the command list"},
   {"name": "!discord", "usage": "!discord", "description": "Displays a link to my Discord server"},
   {"name": "!love", "usage": "!love <target>", "description": "Show the target viewer some love!"},
   {"name": "!hug", "usage": "!hug <target>", "description": "Give the target viewer a hug!"},
