@@ -6,7 +6,7 @@
   {"name": "!lurk", "usage": "!lurk", "description": "Announce the desire to lurk"},
   {"name": "!quote", "usage": "!quote || !quote <id>", "description": "Display a random quote || display a quote by its number"},
   {"name": "!heist", "usage": "!heist <amount>", "description": "Start/join a heist to get points!"},
-  {"name": "!duel", "usage": "!duel <target>", "description": "Costs 500 points. Duel another view to win points worth twice the cost"},
+  {"name": "!duel", "usage": "!duel <target>", "description": "Costs 500 points. Duel another viewer to win points worth twice the cost"},
   {"name": "!ffa", "usage": "!ffa", "description": "Costs 250 points, minimum of 3 contestants. Start a free-for-all battle to win the pot"},
   {"name": "!boss", "usage": "!boss", "description": "Costs 100 points. Get a group of warriors together to fight a boss and take their treasure horde! (minumum 1, maximum 10)"},
   {"name": "!points", "usage": "!points", "description": "Display how many points you have"},
