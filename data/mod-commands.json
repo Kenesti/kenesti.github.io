@@ -11,8 +11,8 @@
   {"name": "!quote add", "usage": "!quote add <text>", "description": "Add a quote through chat"},
   {"name": "!quote edit", "usage": "!quote edit <id> <text>", "description": "Edit a quote through chat"},
   {"name": "!quote remove", "usage": "!quote remove <id>", "description": "Remove a quote through chat"},
-  {"name": "!status", "usage": "!status <title>", "description": "Changes the stream title"},
-  {"name": "!game", "usage": "!game <game>", "description": "Changes the stream game"},
+  {"name": "!settitle", "usage": "!settitle <title>", "description": "Changes the stream title"},
+  {"name": "!setgame", "usage": "!setgame <game>", "description": "Changes the stream game"},
   {"name": "!death +", "usage": "!death +", "description": "Increases the death counter by 1"},
   {"name": "!death -", "usage": "!death -", "description": "Decreases the death counter by 1"},
   {"name": "!death", "usage": "!death <number>", "description": "Sets the death count to a specific number"}
