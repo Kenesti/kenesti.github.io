@@ -4,7 +4,7 @@
   {"name": "!love", "usage": "!love <target>", "description": "Show the target viewer some love!"},
   {"name": "!hug", "usage": "!hug <target>", "description": "Give the target viewer a hug!"},
   {"name": "!lurk", "usage": "!lurk", "description": "Announce the desire to lurk"},
-  {"name": "!quote", "usage": "!quote || !quote <number>", "description": "Display a random quote || display a quote by its number"},
+  {"name": "!quote", "usage": "!quote || !quote <id>", "description": "Display a random quote || display a quote by its number"},
   {"name": "!heist", "usage": "!heist <amount>", "description": "Start/join a heist to get points!"},
   {"name": "!points", "usage": "!points", "description": "Display how many points you have"},
   {"name": "!give", "usage": "!give <target> <amount>", "description": "Give target viewer points"},
