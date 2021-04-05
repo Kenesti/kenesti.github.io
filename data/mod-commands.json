@@ -1,5 +1,6 @@
 [
   {"name": "!so", "usage": "!so <target>", "description": "Shout out a target viewer, displaying their twitch link and the last game played"},
+  {"name": "!props", "usage": "!props <target>", "description": "Give props to the target viewer, displaying their twitch link"},
   {"name": "!command add", "usage": "!command add !<command> <permlvl> <response>", "description": "Add a command directly from chat. Permissions: +a (everyone), +m (moderator), +s (subscriber)"},
   {"name": "!command edit", "usage": "!command edit !<command> <permlvl> <new response>", "description": "Edit a command directly from chat. Permissions: +a (everyone), +m (moderator), +s (subscriber)"},
   {"name": "!command remove", "usage": "!command remove !<command>", "description": "Remove a command directly from chat"},
