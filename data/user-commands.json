@@ -10,7 +10,7 @@
   {"name": "!bandname add", "usage": "!bandname add <bandname - type of music>", "description": "Add a funny 'band name' and the type of music they would play"},
   {"name": "!duel", "usage": "!duel <target>", "description": "Costs 500 points. Duel another viewer to win points worth twice the cost"},
   {"name": "!ffa", "usage": "!ffa", "description": "Costs 250 points, minimum of 3 contestants. Start a free-for-all battle to win the pot"},
-  {"name": "!boss", "usage": "!boss", "description": "Costs 100 points. Get a group of warriors together to fight a boss and take their treasure horde! (minumum 1, maximum 10)"},
+  {"name": "!boss", "usage": "!boss", "description": "Costs 100 points. Get a group of warriors together to fight a boss and take their treasure horde! (minimum 1, maximum 10)"},
   {"name": "!points", "usage": "!points", "description": "Display how many points you have"},
   {"name": "!give", "usage": "!give <target> <amount>", "description": "Give target viewer points"},
   {"name": "!top", "usage": "!top", "description": "Display the top viewers based on points"},
