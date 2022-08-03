@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Response>
-    <Say voice="alice">This is a test.</Say>
+    <Pause length="2"/>
+    <Say voice="man">All calls are recorded for quality assurance</Say>
+    <Pause length="2"/>
+    <Say voice="alice">This is a test of the emergency broadcast system.</Say>
+    <Say voice="alice">If this was not a test, then there would be no music.</Say>
+    <Play>https://demo.twilio.com/docs/classic.mp3</Play>
+    <Say voice="alice">Well that was fun.</Say>
+    <Pause length="1"/>
+    <Say voice="alice">Let's do it again.</Say>
+    <Play>https://demo.twilio.com/docs/classic.mp3</Play>
     <Hangup /> 
 </Response>
