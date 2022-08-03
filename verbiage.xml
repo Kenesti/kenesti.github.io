@@ -3,7 +3,7 @@
 <Response>
     <Pause length="2"/>
     <Say voice="man">All calls are recorded for quality assurance</Say>
-    <Pause length="2"/>
+    <Pause length="1"/>
     <Say voice="alice">This is a test of the emergency broadcast system.</Say>
     <Say voice="alice">If this was not a test, then there would be no music.</Say>
     <Play>https://demo.twilio.com/docs/classic.mp3</Play>
