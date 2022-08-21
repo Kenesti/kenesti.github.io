@@ -2,7 +2,7 @@
 
 <Response>
     <Pause length="13"/>
-    <Say voice="alice">You tried to scam be out of $1700, Bertha. That's not very nice, you should pull down your website and hang up your hat.</Say>
+    <Say voice="alice">You tried to scam me out of $1700. I wonder how long your website will be up before it gets suspended?</Say>
     <Pause length="2"/>
     <Play>https://demo.twilio.com/docs/classic.mp3</Play>
     <Say voice="alice">Well that was fun.</Say>
