@@ -2,7 +2,7 @@
 
 <Response>
     <Pause length="13"/>
-    <Say voice="alice">Have you been able to prove your website isn't just for scamming?</Say>
+    <Say voice="alice">You don't want to answer my emails, Bertha. So I'm just gonna call you until you do.</Say>
     <Pause length="2"/>
     <Play>https://demo.twilio.com/docs/classic.mp3</Play>
     <Say voice="alice">Well that was fun.</Say>
