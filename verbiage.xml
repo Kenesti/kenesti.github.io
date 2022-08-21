@@ -2,7 +2,8 @@
 
 <Response>
     <Pause length="13"/>
-    <Say voice="alice">You tried to scam me out of $1700. I wonder how long your website will be up before it gets suspended?</Say>
+    <Say voice="alice">You tried to scam me out of $1700, Bertha. Now I'm going to tie up your phone system.</Say>
+    <Say voice="alice">Enjoy!</Say>
     <Pause length="2"/>
     <Play>https://demo.twilio.com/docs/classic.mp3</Play>
     <Say voice="alice">Well that was fun.</Say>
