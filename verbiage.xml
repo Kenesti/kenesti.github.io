@@ -2,7 +2,7 @@
 
 <Response>
     <Pause length="13"/>
-    <Say voice="alice">We've been trying to reach you about your car's extended warranty. Just kidding, you're a scammer and I'm here to mess with you.</Say>
+    <Say voice="alice">Have you been able to prove your website isn't just for scamming?</Say>
     <Pause length="2"/>
     <Play>https://demo.twilio.com/docs/classic.mp3</Play>
     <Say voice="alice">Well that was fun.</Say>
