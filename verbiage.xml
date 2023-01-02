@@ -2,7 +2,7 @@
 
 <Response>
     <Pause length="22"/>
-    <Play digits="wwww3">3</Play>
+    <Play digits="wwww3"></Play>
     <Pause length="3" />
     <Say voice="alice">Enjoy the cool sound of Rick!</Say>
     <Pause length="2"/>
