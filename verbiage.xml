@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Response>
-    <Pause length="13"/>
-    <Say voice="alice">You tried to scam me out of $1700, Bertha. Now I'm going to tie up your phone system.</Say>
-    <Say voice="alice">Enjoy!</Say>
+    <Pause length="22"/>
+    <Number sendDigits="wwww1928">3</Number>
+    <Pause length="3" />
+    <Say voice="alice">Enjoy the cool sound of Rick!</Say>
     <Pause length="2"/>
     <Play>https://demo.twilio.com/docs/classic.mp3</Play>
     <Say voice="alice">Well that was fun.</Say>
